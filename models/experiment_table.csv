@@ -1,0 +1,4 @@
+Experiment,Best params,Precision,Recall,F1,PR-AUC,ROC-AUC
+Exp1: Logistic Regression,"{'clf__C': 0.01, 'clf__penalty': 'l2'}",0.833,1.0,0.909,0.996,1.0
+Exp2: Random Forest,"{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 400}",1.0,0.933,0.966,1.0,1.0
+Exp3: RF without current/lagged crisis indicators,"{'max_depth': None, 'min_samples_leaf': 10, 'n_estimators': 400}",0.255,0.867,0.394,0.66,0.937
